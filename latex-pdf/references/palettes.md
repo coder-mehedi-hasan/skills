@@ -12,7 +12,8 @@ Do not mix kinds, and do not invent hex values in the document.
 | `plan` | Internal spec or plan. | `#3F3F46` | `#FFFFFF` | `#52525B` | `#1E3A5F` | `#E4E4E7` |
 | `brief` | Anything else. | `#111827` | `#FFFFFF` | `#4B5563` | `#1D4ED8` | `#E5E7EB` |
 
-`review` matches the DineBD rounds already sent (`#F07A1F` headings and numbers).
+`review` uses a warm orange so a checklist is easy to tell apart from a
+finance sheet (green) or a status note (blue).
 
 ## How the colors are used
 

@@ -5,8 +5,8 @@ description: >
   document kind: review (client check), release (app release sheet),
   finance (invoice or statement), update (work update), plan (internal
   spec), or brief (anything else). Use when the user asks for a PDF, a
-  LaTeX document, a client handout, a one-pager, or when another skill
-  needs a PDF built — including DineBD review rounds.
+  LaTeX document, a client handout, a one-pager, or when another workflow
+  needs a PDF built.
 ---
 
 # LaTeX PDF
@@ -23,7 +23,7 @@ Read [references/palettes.md](references/palettes.md) and set exactly one:
 
 | Kind | Use when the document is |
 |---|---|
-| `review` | A client review round (DineBD orange, same as rounds already sent) |
+| `review` | A client review: numbered items for someone to check |
 | `release` | An app release sheet |
 | `finance` | An invoice, statement, or balance |
 | `update` | A daily work update or status note |
@@ -60,8 +60,8 @@ If a calling skill names the kind, use that and do not reconsider it.
    - `\colorrule` — hairline in the kind's rule color
 
    Two portraits: one `figure` with two `subfigure`s at `height=6.6cm`.
-   A calling skill may add its own commands (`\reviewitem`, and so on) on
-   top of these. Those commands use `accent` and `muted`, never a raw hex.
+   Extra commands belong in the document and should use `accent` and
+   `muted`, never a raw hex.
 
 Voice belongs to the calling skill. With no calling skill: short sentences,
 active voice, no emoji, one idea per bullet. Write for the person who will
