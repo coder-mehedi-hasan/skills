@@ -1,0 +1,4 @@
+interface:
+  display_name: "LaTeX PDF"
+  short_description: "Build a PDF in LaTeX with a palette chosen from the document kind"
+  default_prompt: "Use $latex-pdf to generate a PDF. Pick the color palette from the document kind."

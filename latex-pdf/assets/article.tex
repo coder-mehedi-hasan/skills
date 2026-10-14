@@ -1,0 +1,31 @@
+\documentclass[11pt,a4paper]{article}
+\input{packages.tex}
+% Document kind. Colors follow this one word.
+% review | release | finance | update | plan | brief
+\def\pdfkind{brief}
+\input{palette.tex}
+\input{macros.tex}
+
+\title{Document title}
+\author{Graphland}
+\date{\today}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\colorrule
+
+\noindent
+Opening paragraph. Say who this is for and what they should do with it.
+
+\section{First section}
+
+\begin{itemize}
+  \item One idea per bullet.
+\end{itemize}
+
+% \docitem{Title}{Short meta line}
+% \withphone{shot.png}{Caption.}{Steps or paragraph.}
+% \wide{dashboard.png}{Caption.}
+
+\end{document}
